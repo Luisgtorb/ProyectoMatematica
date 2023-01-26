@@ -1,0 +1,25 @@
+/* Clase añadida con la opcion correcta */
+.correcta {
+  color: green;
+}
+
+.correcta::after {
+  content: "   Acertaste, opción correcta";
+  color: green;
+}
+
+/* Clase añadida corrigiendo la opcion correcta */
+.corregir::after {
+  content: " Esta es la opción correcta";
+  color: green;
+}
+
+/* Clase añadida con la opcion incorrecta */
+.equivocar {
+  color: red;
+}
+
+.equivocar::after {
+  content: "   Fallaste, opción incorrecta";
+  color: red;
+}

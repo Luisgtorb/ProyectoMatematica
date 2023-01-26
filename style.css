@@ -1,0 +1,45 @@
+body {
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: cursive;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+
+p {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  padding: 0.5rem 2rem;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
